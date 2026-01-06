@@ -30,15 +30,17 @@ Puedes obtener el proyecto de dos formas:
 
 Opción 1: Clonar el repositorio
 -git clone https://github.com/elburnas/pokeapi.git
+
 Opción 2: Usar pull
--git pull origin main (En caso de ya tener el repositorio clonado).
--Paso seguido, acceder a la carpeta del proyecto "cd nombre-del-proyecto"
--Instalación de dependencias con (npm install)
--Ejecutar el proyecto de manera local, con la siguiente linea de comando npm run dev
--Construcción del proyecto con el comando npm run build
--Y por ultimo despliegue en github pages. npm run deploy
+
+- Git pull origin main (En caso de ya tener el repositorio clonado).
+- Paso seguido, acceder a la carpeta del proyecto "cd nombre-del-proyecto"
+- Instalación de dependencias con (npm install)
+- Ejecutar el proyecto de manera local, con la siguiente linea de comando npm run dev
+- Construcción del proyecto con el comando npm run build
+- Y por ultimo despliegue en github pages. npm run deploy
 
 
 Notas.
--- Si utilizas versiones muy recientes de Vite o Node, podrías tener problemas al ejecutar el proyecto.
--- En este momento esta aplicación esta corriendo en el siguiente enlace. https://elburnas.github.io/pokeapi/
+- - Si utilizas versiones muy recientes de Vite o Node, podrías tener problemas al ejecutar el proyecto.
+- - En este momento esta aplicación esta corriendo en el siguiente enlace. https://elburnas.github.io/pokeapi/
