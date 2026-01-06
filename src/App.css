@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.app-container {
+  padding: 16px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.autor {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto; 
+}
+
+.pokemon-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pokemon-table th,
+.pokemon-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+  width: 33%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+  padding-left: 50%;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.paginado {
+  font-weight: bold;
+  text-align: center;
+}
