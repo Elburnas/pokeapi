@@ -29,7 +29,6 @@ Descargar o clonar el repositorio
 Puedes obtener el proyecto de dos formas:
 
 Opción 1: Clonar el repositorio
-```bash
 -git clone https://github.com/elburnas/pokeapi.git
 Opción 2: Usar pull
 -git pull origin main (En caso de ya tener el repositorio clonado).
