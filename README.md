@@ -1,16 +1,45 @@
-# pokeapi# React + Vite
+Proyecto React – Consumo de API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto fue creado como una introducción práctica a **React**, enfocado en aprender cómo consumir una API y mostrar información en pantalla de forma sencilla.
 
-Currently, two official plugins are available:
+La aplicación obtiene datos desde una API externa y los muestra en una **tabla con paginado**, permitiendo cambiar de página y ver cómo React actualiza la información automáticamente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El objetivo principal es entender los conceptos básicos de React sin entrar en configuraciones complejas.
 
-## React Compiler
+¿Qué se aprende en este proyecto?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Cómo crear una aplicación con **React y Vite**
+- Cómo consumir una **API** usando `fetch`
+- Uso de:
+  - `useState` para manejar datos y estados
+  - `useEffect` para cargar información al iniciar la aplicación
+- Renderizar información en una tabla
+- Manejar paginado de datos
+- Despliegue del proyecto en **GitHub Pages**
 
-## Expanding the ESLint configuration
+Requisitos previos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Antes de comenzar, asegúrate de tener instalado:
+
+- Node.js versión 18
+- npm (incluido con Node.js) 
+
+Descargar o clonar el repositorio
+
+Puedes obtener el proyecto de dos formas:
+
+Opción 1: Clonar el repositorio
+```bash
+-git clone https://github.com/elburnas/pokeapi.git
+Opción 2: Usar pull
+-git pull origin main (En caso de ya tener el repositorio clonado).
+-Paso seguido, acceder a la carpeta del proyecto "cd nombre-del-proyecto"
+-Instalación de dependencias con (npm install)
+-Ejecutar el proyecto de manera local, con la siguiente linea de comando npm run dev
+-Construcción del proyecto con el comando npm run build
+-Y por ultimo despliegue en github pages. npm run deploy
+
+
+Notas.
+-- Si utilizas versiones muy recientes de Vite o Node, podrías tener problemas al ejecutar el proyecto.
+-- En este momento esta aplicación esta corriendo en el siguiente enlace. https://elburnas.github.io/pokeapi/
